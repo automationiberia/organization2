@@ -1,0 +1,11 @@
+---
+controller_workflows:
+  - name: "{{ orgs }} Workflow_Gather_Facts"
+    description: "workflow for GatherFacts on AAP"
+    survey_enabled: false
+    ask_variables_on_launch: true
+    ask_inventory_on_launch: true
+    allow_simultaneous: true
+    scm_branch: "{{ env }}"
+    organization: "{{ orgs }}"
+...

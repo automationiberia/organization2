@@ -1,0 +1,15 @@
+---
+controller_workflow_nodes:
+  - identifier: JT_GATHER_FACTS_ORG1
+    workflow_job_template: "{{ orgs }} Workflow_Gather_Facts"
+    unified_job_template: "{{ orgs }} JT_Gather_Facts"
+    job_type: run
+    organization: "{{ orgs }}"
+
+  - identifier: PROJECT_SYNC_PLAYBOOKS_ORG1
+    workflow_job_template: "{{ orgs }} Workflow_Gather_Facts"
+    unified_job_template: "{{ orgs }} Playbooks"
+    organization: "{{ orgs }}"
+    success_nodes:
+      - JT_GATHER_FACTS_ORG1
+...

@@ -1,0 +1,8 @@
+---
+controller_roles:
+  - job_templates:
+      - "Organization1 JT_Gather_Facts"
+    team: "ldap-org01-users"
+    role: execute
+
+...

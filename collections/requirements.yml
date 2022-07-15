@@ -1,0 +1,5 @@
+---
+collections:
+  - name: redhat_cop.controller_casc
+  - name: redhat_cop.controller_configuration
+...
