@@ -1,19 +1,19 @@
 ---
 controller_roles:
   - organizations:
-      - "Organization1"
+      - "{{ orgs }}"
     team: "ldap-org01-devs"
     role: workflow_admin
   - organizations:
-      - "Organization1"
+      - "{{ orgs }}"
     team: "ldap-org01-devs"
     role: notification_admin
   - organizations:
-      - "Organization1"
+      - "{{ orgs }}"
     team: "ldap-org01-devs"
     role: job_template_admin
   - organizations:
-      - "Organization1"
+      - "{{ orgs }}"
     team: "ldap-org01-devs"
     role: execution_environment_admin
 ...
