@@ -4,7 +4,7 @@ controller_projects:
     description: "Project to run CasC"
     organization: "{{ orgs }}"
     scm_type: git
-    scm_url: "git@gitlab.bcnconsulting.com:aap-demo/organization1.git"
+    scm_url: "git@gitlab.bcnconsulting.com:aap-demo/organization2.git"
     scm_credential: "{{ orgs }} {{ env }} Gitlab Credential"
     scm_branch: "{{ env }}"
     scm_clean: false

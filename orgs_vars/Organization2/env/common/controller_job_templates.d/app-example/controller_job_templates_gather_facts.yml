@@ -3,7 +3,7 @@ controller_templates:
   - name: "{{ orgs }} JT_Gather_Facts"
     description: "Job Template to execute playbooks to get facts from servers"
     organization: "{{ orgs }}"
-    inventory: "SmartInventory CPD MAD Org1 dev"
+    inventory: "SmartInventory CPD MAD Org2 dev"
     project: "{{ orgs }} Playbooks"
     playbook: "readonly-playbooks.yml"
     job_type: run
