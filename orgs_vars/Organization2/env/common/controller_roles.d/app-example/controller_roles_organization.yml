@@ -2,18 +2,18 @@
 controller_roles:
   - organizations:
       - "{{ orgs }}"
-    team: "ldap-org01-devs"
+    team: "ldap-org02-devs"
     role: workflow_admin
   - organizations:
       - "{{ orgs }}"
-    team: "ldap-org01-devs"
+    team: "ldap-org02-devs"
     role: notification_admin
   - organizations:
       - "{{ orgs }}"
-    team: "ldap-org01-devs"
+    team: "ldap-org02-devs"
     role: job_template_admin
   - organizations:
       - "{{ orgs }}"
-    team: "ldap-org01-devs"
+    team: "ldap-org02-devs"
     role: execution_environment_admin
 ...
