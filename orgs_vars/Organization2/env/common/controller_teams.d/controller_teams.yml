@@ -1,10 +1,3 @@
 ---
-controller_teams:
-  - name: "{{ orgs }} Global-team"
-    description: "Team for Global Org"
-    organization: "Global"
-
-  - name: "{{ orgs }} test-group"
-    description: "test-group"
-    organization: "Global"
+controller_teams: []
 ...
